@@ -1,0 +1,58 @@
+/*outr div*/
+.container
+{
+    background-color: rgb(241, 235, 235);
+    height: 1000px;
+    width:100%;
+}
+/*main div is partioned vertially into two,firsthalf and seond half*/
+.maindiv
+{
+width: 100%;
+height: 800px;
+}
+/*firsthalf contains faebooklogo*/
+.firsthalf
+{
+    background: rgb(241, 235, 235)
+    height: 800px;
+ width: 50%;
+ float: left;
+
+
+}
+/*seondhalf contains a table*/
+.secondhalf
+{
+    float: left;
+    background: rgb(241, 235, 235)
+    height: 800px;
+    width:50%;
+}
+/*footer contains some links*/
+.footer
+{
+    height: 200px;
+    width: 100%;
+background: white;
+float: left;
+}
+button:hover
+{
+    opacity: 0.8;
+
+}
+.table
+{
+    width:350px;
+    margin-top: 200px;
+    margin-left: 150px;
+    border:rgb(65, 62, 56);
+    border-radius: 5px;
+    background-color: rgb(249, 249, 246);"
+    color: white;
+    
+          
+}
+
+    
