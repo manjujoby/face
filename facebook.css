@@ -1,8 +1,7 @@
-/*outr div*/
+
 .container
 {
-    background-color: rgb(241, 235, 235);
-    height: 1000px;
+   height: 100%;
     width:100%;
 }
 /*main div is partioned vertially into two,firsthalf and seond half*/
@@ -14,20 +13,42 @@ height: 800px;
 /*firsthalf contains faebooklogo*/
 .firsthalf
 {
-    background: rgb(241, 235, 235)
+    background: white;
     height: 800px;
- width: 50%;
- float: left;
-
+    
 
 }
+/*face book heading*/
+.fbook
+{
+    color: rgb(31, 100, 204);
+    margin-top: 200px;
+    margin-left: 125px;
+    font-size: 50pt;
+    font-weight:600;
+}
+/* css for text below the faebook heading*/
+.textbelow
+{
+    color: rgba(19, 19, 20, 0.695);
+    margin-top:1px;
+    margin-left: 125px;
+    font-size: 20pt;
+
+}
+
 /*seondhalf contains a table*/
 .secondhalf
 {
-    float: left;
-    background: rgb(241, 235, 235)
+    
+    background: white;
     height: 800px;
-    width:50%;
+   
+}
+/*  login heading*/
+.tablelogin{
+    font-size: 30px;
+    margin-left: 20px;
 }
 /*footer contains some links*/
 .footer
@@ -35,24 +56,79 @@ height: 800px;
     height: 200px;
     width: 100%;
 background: white;
-float: left;
+
 }
 button:hover
 {
     opacity: 0.8;
 
 }
+/* table inside 2nd div*/
 .table
 {
     width:350px;
-    margin-top: 200px;
+    margin-top: 130px;
     margin-left: 150px;
     border:rgb(65, 62, 56);
     border-radius: 5px;
-    background-color: rgb(249, 249, 246);"
+    background-color: rgb(249, 249, 246);
     color: white;
     
           
 }
+/*login text box*/
+.ttextstyle
+{
+    width: 350px;
+     height:50px;
+      border-radius:5px;
+      margin-top: 10px;
+}
+.loginbutton{
+    width: 350px;
+     height: 40px; 
+     border-radius: 5px;
+     background-color: rgb(31, 100, 204);
+     margin-top: 10px;
+    color: azure;
+
+}
+/* Forgotten password link style*/
+.linkstyle
+{
+    color: blue;
+     font-size: 17pt;
+     margin-left: 65px;
+     margin-top: 20px;
+     text-decoration: none;
+}
+/* horizontal line style*/
+.horizon
+{
+    color: grey;
+    margin-top: 10px;
+}
+.newactbtn
+{
+    color: rgb(236, 242, 236);
+    width: 150px;
+    height: 35px;
+    margin-left: 80px;
+    background: rgb(57, 93, 4);
+    border: none;
+    border-radius: 5px;
+    cursor:pointer=pointer;
+}
+/* para under table*/
+.tablebottom
+{
+    margin-left: 145px;
+    margin-top: 50px;
+    font-size: 5pt;
+    padding-top: 25px;
+    font-size: 10pt;
+    color: #4141d7;
+}
+
 
     
